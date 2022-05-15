@@ -14,3 +14,8 @@ video {
     height: 100vh;
     object-fit: cover;
 } 
+
+.video-parallax {
+    -webkit-transition-position: fixed;
+    position: fixed;
+}

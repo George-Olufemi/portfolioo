@@ -8,11 +8,13 @@ import Projects from './components/Projects';
 function App() {
   return (
     <React.Fragment>
-      <Hero />
-      <Body />
-      <Projects />
-      <Contact />
-      <Footer />
+      <div className='overflow-x-hidden'>
+        <Hero />
+        <Body />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </React.Fragment>
   );
 }
